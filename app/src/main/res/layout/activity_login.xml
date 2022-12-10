@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#171717"
     tools:context=".activity.LoginActivity">
 
     <EditText
@@ -14,6 +15,9 @@
         android:ems="10"
         android:hint="Login"
         android:inputType="textPersonName"
+        android:shadowColor="#00000000"
+        android:textColor="#6820E8"
+        android:textColorHint="#6820E8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +30,7 @@
         android:ems="10"
         android:hint="Senha"
         android:inputType="textPassword"
+        android:textColorHint="#6820E8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etLogin" />
@@ -38,7 +43,8 @@
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:strokeColor="#6820E8" />
 
     <Button
         android:id="@+id/btnRegisterNewUser"
@@ -48,5 +54,6 @@
         android:text="Cadastrar Novo Usuário"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:rippleColor="#FFFFFF" />
 </androidx.constraintlayout.widget.ConstraintLayout>
