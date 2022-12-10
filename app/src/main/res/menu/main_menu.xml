@@ -13,6 +13,6 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/opPerfil"
-        android:icon="@mipmap/ic_info_foreground"
+        android:icon="@mipmap/ic_perfil_foreground"
         app:showAsAction="ifRoom" />
 </menu>
