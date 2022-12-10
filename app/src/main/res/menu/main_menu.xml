@@ -12,11 +12,7 @@
         android:visible="true"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/opNotification"
-        android:icon="@mipmap/ic_notification_foreground"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/opInfo"
+        android:id="@+id/opPerfil"
         android:icon="@mipmap/ic_info_foreground"
         app:showAsAction="ifRoom" />
 </menu>
