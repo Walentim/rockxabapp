@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".activity.ArtistaActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imvArtistPhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -16,23 +17,28 @@
         tools:src="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvTitleArtist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans_semibold"
         android:text="artista mortiz"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imvArtistPhoto" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tvDesArtist"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:fontFamily="@font/josefin_sans_semibold"
         android:text="sajklewlqkjelkasjkldjasklejwqklehklawhelasjklsahdasdlja  asjdslajdsklajdklasjdklsajd"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleArtist" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
