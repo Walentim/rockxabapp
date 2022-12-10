@@ -1,14 +1,16 @@
-package com.example.rockxabapp;
+package com.example.rockxabapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class EventosActivity extends AppCompatActivity {
+import com.example.rockxabapp.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eventos);
+        setContentView(R.layout.activity_main);
     }
 }
